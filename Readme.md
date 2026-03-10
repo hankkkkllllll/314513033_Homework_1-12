@@ -29,7 +29,7 @@ pip install torch gymnasium numpy matplotlib tensorboardX
 To train and evaluate the agent, simply run the Python script:
 
 ```bash
-python main.py
+python PPO_314513033.py
 
 ```
 
