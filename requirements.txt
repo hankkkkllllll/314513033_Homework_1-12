@@ -1,0 +1,7 @@
+﻿torch==2.5.1+cu121
+numpy==2.2.6
+gymnasium==1.2.3
+pygame==2.6.1
+matplotlib==3.10.8
+tensorboard==2.20.0
+tensorboardX==2.6.4
