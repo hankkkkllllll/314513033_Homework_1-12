@@ -201,7 +201,7 @@ def main():
             current_pos, current_vel = next_state
             
             # Augment base reward (-1) with kinetic energy (speed) to encourage oscillation
-            kinetic_bonus = 100.0 * abs(current_vel)
+            kinetic_bonus = 80.0 * abs(current_vel)
             custom_reward = reward + kinetic_bonus 
             
             # Proximity bonus: Reward the agent when it reaches the right-side slope
