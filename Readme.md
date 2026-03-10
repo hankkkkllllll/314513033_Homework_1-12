@@ -56,7 +56,7 @@ The agent uses two separate Multi-Layer Perceptrons (MLPs):
 
 To overcome the sparse `-1` per step reward of the base environment, this script modifies the reward at each step:
 
-* **Kinetic Bonus**: `+ 100.0 * abs(velocity)` – Encourages the agent to build up speed and oscillate.
+* **Kinetic Bonus**: `+ 80.0 * abs(velocity)` – Encourages the agent to build up speed and oscillate.
 * **Proximity Bonus**: `+ 10.0` – Rewarded when the cart reaches a position greater than `0.1` on the right-side slope, drawing it closer to the flag.
 
 ### Logging
